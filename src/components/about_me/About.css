@@ -1,0 +1,36 @@
+.about-me-wrapper {
+    display: flex;
+}
+
+.about-me {
+    width: 50%;
+    text-align: left;
+}
+
+.about-me h4 {
+    color: lightcyan;
+    font-size: 32px;
+}
+
+.about-me ul {
+    color: #8892b0;
+}
+
+.about-me p {
+    color: #8892b0;
+    font-size: 20px;
+}
+
+.skill-lists {
+    display: flex;
+}
+
+.skill-lists ul {
+    list-style: none;
+}
+
+.profile-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
