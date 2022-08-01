@@ -7,25 +7,23 @@ const Work = () => {
   return (
     <div className="container work-wrapper">
       <div className="heading">
-        <h4>Where I've Worked</h4>
+        <span>02. </span>
+        <h5>Where I've Worked</h5>
       </div>
       <div className="div-tabs">
         <Tabs className="my-tabs text-left">
           <TabList>
             <Tab>
-              <p>Title 1</p>
+              <p>Summit Tech</p>
             </Tab>
             <Tab>
-              <p>Title 2</p>
+              <p>Bridge Africa</p>
             </Tab>
             <Tab>
-              <p>Title 3</p>
+              <p>Zotech</p>
             </Tab>
             <Tab>
-              <p>Title 4</p>
-            </Tab>
-            <Tab>
-              <p>Title 5</p>
+              <p>Nervtek</p>
             </Tab>
           </TabList>
 
@@ -40,34 +38,159 @@ const Work = () => {
                 </p>
                 <span className="work-period">July - Dec 2021</span>
                 <div>
-                  <ol>
-                    <li>
-                      <BiRightArrow />
+                  <div className="specific-details mt-3">
+                    <span>
+                      {" "}
+                      <BiRightArrow size={15} color="#64ffda" />
+                    </span>
+                    <p className="ml-4">
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                       Voluptatem, fugit ullam voluptas officiis quidem delectus
-                    </li>
-                  </ol>
+                    </p>
+                  </div>
+                  <div className="specific-details mt-3">
+                    <span>
+                      {" "}
+                      <BiRightArrow size={15} color="#64ffda" />
+                    </span>
+                    <p className="ml-4">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Voluptatem, fugit ullam voluptas officiis quidem delectus
+                    </p>
+                  </div>
                 </div>
               </div>
             </TabPanel>
-            <TabPanel>
+            <TabPanel className="work-details">
               <div className="panel-content">
-                <h2>Any content 2</h2>
+                <p className="work-place">
+                  Full Stack Developer{" "}
+                  <span className="company">
+                    @ <a href="https://summittech-eng.org/">Summit Tech</a>
+                  </span>
+                </p>
+                <span className="work-period">July - Dec 2021</span>
+                <div>
+                  <div className="specific-details mt-3">
+                    <span>
+                      {" "}
+                      <BiRightArrow size={15} color="#64ffda" />
+                    </span>
+                    <p className="ml-4">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Voluptatem, fugit ullam voluptas officiis quidem delectus
+                    </p>
+                  </div>
+                  <div className="specific-details mt-3">
+                    <span>
+                      {" "}
+                      <BiRightArrow size={15} color="#64ffda" />
+                    </span>
+                    <p className="ml-4">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Voluptatem, fugit ullam voluptas officiis quidem delectus
+                    </p>
+                  </div>
+                </div>
               </div>
             </TabPanel>
-            <TabPanel>
+            <TabPanel className="work-details">
               <div className="panel-content">
-                <h2>Any content 3</h2>
+                <p className="work-place">
+                  Full Stack Developer{" "}
+                  <span className="company">
+                    @ <a href="https://summittech-eng.org/">Summit Tech</a>
+                  </span>
+                </p>
+                <span className="work-period">July - Dec 2021</span>
+                <div>
+                  <div className="specific-details mt-3">
+                    <span>
+                      {" "}
+                      <BiRightArrow size={15} color="#64ffda" />
+                    </span>
+                    <p className="ml-4">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Voluptatem, fugit ullam voluptas officiis quidem delectus
+                    </p>
+                  </div>
+                  <div className="specific-details mt-3">
+                    <span>
+                      {" "}
+                      <BiRightArrow size={15} color="#64ffda" />
+                    </span>
+                    <p className="ml-4">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Voluptatem, fugit ullam voluptas officiis quidem delectus
+                    </p>
+                  </div>
+                </div>
               </div>
             </TabPanel>
-            <TabPanel>
+            <TabPanel className="work-details">
               <div className="panel-content">
-                <h2>Any content 4</h2>
+                <p className="work-place">
+                  Full Stack Developer{" "}
+                  <span className="company">
+                    @ <a href="https://summittech-eng.org/">Summit Tech</a>
+                  </span>
+                </p>
+                <span className="work-period">July - Dec 2021</span>
+                <div>
+                  <div className="specific-details mt-3">
+                    <span>
+                      {" "}
+                      <BiRightArrow size={15} color="#64ffda" />
+                    </span>
+                    <p className="ml-4">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Voluptatem, fugit ullam voluptas officiis quidem delectus
+                    </p>
+                  </div>
+                  <div className="specific-details mt-3">
+                    <span>
+                      {" "}
+                      <BiRightArrow size={15} color="#64ffda" />
+                    </span>
+                    <p className="ml-4">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Voluptatem, fugit ullam voluptas officiis quidem delectus
+                    </p>
+                  </div>
+                </div>
               </div>
             </TabPanel>
-            <TabPanel>
+            <TabPanel className="work-details">
               <div className="panel-content">
-                <h2>Any content 5</h2>
+                <p className="work-place">
+                  Full Stack Developer{" "}
+                  <span className="company">
+                    @ <a href="https://summittech-eng.org/">Summit Tech</a>
+                  </span>
+                </p>
+                <span className="work-period">July - Dec 2021</span>
+                <div>
+                  <div className="specific-details mt-3">
+                    <span>
+                      {" "}
+                      <BiRightArrow size={15} color="#64ffda" />
+                    </span>
+                    <p className="ml-4">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Voluptatem, fugit ullam voluptas officiis quidem delectus
+                    </p>
+                  </div>
+                  <div className="specific-details mt-3">
+                    <span>
+                      {" "}
+                      <BiRightArrow size={15} color="#64ffda" />
+                    </span>
+                    <p className="ml-4">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Voluptatem, fugit ullam voluptas officiis quidem delectus
+                    </p>
+                  </div>
+                </div>
               </div>
             </TabPanel>
           </div>

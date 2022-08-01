@@ -11,7 +11,7 @@
 }
 
 .greetings {
-    color: lightcyan;
+    color: #64ffda;
     font-size: 20px;
 }
 
@@ -22,16 +22,16 @@
 }
 
 .connect {
-    color: lightcyan;
+    color: #64ffda;
     padding: 10px 25px;
     background-color: transparent;
-    border: 2px solid lightblue;
+    border: 2px solid #64ffda;
     border-radius: 5px;
     font-size: 18px;
     font-weight: bold;
 }
 
 .connect:hover {
-    background-color: lightcyan;
-    color: black;
+    background-color: #64ffdb1e;
+    color: #64ffda;
 }

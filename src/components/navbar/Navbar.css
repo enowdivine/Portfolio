@@ -11,10 +11,10 @@ nav ul {
 }
 
 .resume {
-    color: lightblue;
+    color: #64ffda;
     padding: 10px 25px;
     background-color: transparent;
-    border: 2px solid lightblue;
+    border: 2px solid #64ffda;
     border-radius: 5px;
     font-weight: bold;
 }
