@@ -3,7 +3,7 @@ import "./HomeSection.css";
 
 const Home = () => {
   return (
-    <div className="container home-section-wrapper">
+    <div className="home-section-wrapper">
       <p className="greetings">Hi, my name is</p>
       <h1 className="themeColor">Enow Divine.</h1>
       <h1 className="themeColor">I build things for the web</h1>

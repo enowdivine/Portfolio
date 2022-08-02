@@ -5,7 +5,7 @@ import { BiRightArrow } from "react-icons/bi";
 
 const Work = () => {
   return (
-    <div className="container work-wrapper">
+    <div className="work-wrapper">
       <div className="heading">
         <span>02. </span>
         <h5>Where I've Worked</h5>

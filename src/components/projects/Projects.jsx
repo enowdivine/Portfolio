@@ -5,7 +5,7 @@ import { FiExternalLink } from "react-icons/fi";
 
 const Projects = () => {
   return (
-    <div className="container projects">
+    <div className="projects">
       <div className="heading">
         <span>03. </span>
         <h5>Some Things I've Built</h5>

@@ -1,11 +1,15 @@
 import React from "react";
 import "./About.css";
+import { BiRightArrow } from "react-icons/bi";
 
 const About = () => {
   return (
-    <div className="about-me-wrapper p-5 container">
+    <div className="about-me-wrapper p-5">
       <div className="about-me">
-        <h4>About Me</h4>
+        <div className="heading">
+          <span>01. </span>
+          <h5>About Me</h5>
+        </div>
         <p className="mt-4">
           Hello! My name is Brittany and I enjoy creating things that live on
           the internet. My interest in web development started back in 2012 when
@@ -26,19 +30,54 @@ const About = () => {
         <p>Here are a few technologies I’ve been working with recently:</p>
         <div className="skill-lists">
           <ul>
-            <li>test</li>
-            <li>test</li>
-            <li>test</li>
+            <li>
+              <span>
+                <BiRightArrow size={10} color="#64ffda" />
+              </span>
+              test
+            </li>
+            <li>
+              {" "}
+              <span>
+                <BiRightArrow size={10} color="#64ffda" />
+              </span>
+              test
+            </li>
+            <li>
+              {" "}
+              <span>
+                <BiRightArrow size={10} color="#64ffda" />
+              </span>
+              test
+            </li>
           </ul>
           <ul>
-            <li>test</li>
-            <li>test</li>
-            <li>test</li>
+            <li>
+              {" "}
+              <span>
+                <BiRightArrow size={10} color="#64ffda" />
+              </span>
+              test
+            </li>
+            <li>
+              {" "}
+              <span>
+                <BiRightArrow size={10} color="#64ffda" />
+              </span>
+              test
+            </li>
+            <li>
+              {" "}
+              <span>
+                <BiRightArrow size={10} color="#64ffda" />
+              </span>
+              test
+            </li>
           </ul>
         </div>
       </div>
       <div className="profile-image">
-        <img src="/logo192.png" alt="" />
+        <img src="/images/portfolio.png" alt="" />
       </div>
     </div>
   );

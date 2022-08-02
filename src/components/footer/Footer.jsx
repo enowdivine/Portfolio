@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className="container footer-wrapper">
+    <div className=" footer-wrapper">
       <a href="#"> Built by Enow Divine</a>
     </div>
   );

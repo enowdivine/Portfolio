@@ -1,0 +1,49 @@
+.single-card {
+    background-color: #112240;
+    width: 30%;
+    margin: 10px;
+    padding: 30px;
+}
+
+.cardHead {
+    display: flex;
+    justify-content: space-between;
+}
+
+.folder-icon {
+    color: #64ffda;
+}
+
+.links {
+    color: #8892b0;
+}
+
+.links span {
+    margin: 5px;
+}
+
+.cardTitle {
+    color: lightcyan;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.cardContent {
+    color: #8892b0;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.cardFooter {
+    margin-top: 20px;
+    color: #8892b0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardFooter span {
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
