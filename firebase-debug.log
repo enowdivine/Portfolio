@@ -1,0 +1,50 @@
+[debug] [2022-08-03T17:11:31.286Z] ----------------------------------------------------------------------
+[debug] [2022-08-03T17:11:31.288Z] Command:       /home/truth/.nvm/versions/node/v16.14.0/bin/node /home/truth/.nvm/versions/node/v16.14.0/bin/firebase init
+[debug] [2022-08-03T17:11:31.289Z] CLI Version:   10.9.2
+[debug] [2022-08-03T17:11:31.289Z] Platform:      linux
+[debug] [2022-08-03T17:11:31.289Z] Node Version:  v16.14.0
+[debug] [2022-08-03T17:11:31.290Z] Time:          Wed Aug 03 2022 18:11:31 GMT+0100 (West Africa Standard Time)
+[debug] [2022-08-03T17:11:31.290Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-03T17:11:31.296Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-03T17:11:31.297Z] > authorizing via signed-in user (sirdivine16@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/truth/Documents/work/portfolio
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-03T17:11:42.194Z] > refreshing access token with scopes: []
+[debug] [2022-08-03T17:11:42.195Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-08-03T17:13:53.368Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2022-08-03T17:16:04.437Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at invalidCredentialError (/home/truth/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/lib/auth.js:145:12)
+    at refreshTokens (/home/truth/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/lib/auth.js:485:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Client.getAccessToken (/home/truth/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/lib/apiv2.js:147:23)
+    at async Client.addAuthHeader (/home/truth/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/lib/apiv2.js:138:21)
+    at async Client.request (/home/truth/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/lib/apiv2.js:94:34)
+    at async getProjectPage (/home/truth/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/lib/management/projects.js:233:17)
+    at async getFirebaseProjectPage (/home/truth/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/lib/management/projects.js:250:23)
+    at async selectProjectInteractively (/home/truth/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/lib/management/projects.js:95:41)
+    at async doSetup (/home/truth/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/lib/init/features/project.js:88:27)
+    at async init (/home/truth/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/lib/init/index.js:36:9)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.

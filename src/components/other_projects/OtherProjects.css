@@ -3,6 +3,11 @@
     width: 30%;
     margin: 10px;
     padding: 30px;
+    text-decoration: none;
+}
+
+.single-card .cardTitle:hover {
+    color: #64ffda;
 }
 
 .cardHead {
@@ -14,12 +19,16 @@
     color: #64ffda;
 }
 
-.links {
+.links a {
     color: #8892b0;
 }
 
 .links span {
     margin: 5px;
+}
+
+.links span:hover {
+    color: #64ffda;
 }
 
 .cardTitle {
