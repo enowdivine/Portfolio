@@ -4,7 +4,7 @@
 
 .project {
     display: flex;
-    text-align: right;
+    text-align: left;
     margin-top: 30px;
     /* align-items: center;
     color: #8892b0;
@@ -19,20 +19,18 @@
     text-align: left */
 }
 
-.project-details {
+.featured-project2 {
     color: #64ffda;
     font-size: 15px;
-    text-align: right;
 
 }
 
-.project-details {
+.project-details2 {
     margin-top: 50px;
 }
 
-.project-details h5 {
+.project-details2 h5 {
     color: lightcyan;
-    text-align: right;
 }
 
 .project-preview {
@@ -44,10 +42,10 @@
     font-family: Calibre;
     font-size: 20px;
     line-height: 26px;
-    text-align: left;
+    text-align: right;
     height: 350px;
     width: 1500px;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .project-preview:hover {
@@ -61,7 +59,7 @@
     height: 100%;
 }
 
-.more-details {
+.more-details2 {
     margin-top: 20px;
     color: #8892b0;
     background-color: #112240;
@@ -71,30 +69,25 @@
     font-size: 18px;
     line-height: 23.4px;
     padding: 25px;
-    text-align: right;
+    text-align: left;
     font-size: 15px;
 }
 
-.tools {
+.projectTwo-tools {
     color: #8892b0;
     font-size: 13px;
-    text-align: right;
 }
 
-.tools span {
+.projectTwo-tools span {
     margin: 5px;
 }
 
-.links {
-    text-align: right;
-}
-
-.links a {
+.projectTwo-links a {
     color: lightcyan;
     margin: 5px;
 }
 
-.links a:hover {
+.projectTwo-links a:hover {
     color: #64ffda;
 }
 
@@ -108,6 +101,7 @@
     .project-preview {
         width: 100%;
         height: 100%;
+        margin-top: 20px;
     }
 
 }

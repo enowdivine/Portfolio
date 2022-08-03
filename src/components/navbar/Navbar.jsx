@@ -10,7 +10,9 @@ const NavigationBar = () => {
     <nav>
       <Navbar collapseOnSelect expand="lg" bg="#051b34" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Enow Divine</Navbar.Brand>
+          <Navbar.Brand href="#home" className="brand">
+            Enow Divine
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
@@ -32,18 +34,19 @@ const NavigationBar = () => {
             </Nav>
             <Nav>
               <Nav.Link className="nav-links" href="#deets">
-                Home
-              </Nav.Link>
-              <Nav.Link className="nav-links" href="#deets">
+                <span>01. </span>
                 About
               </Nav.Link>
               <Nav.Link className="nav-links" href="#deets">
+                <span>02. </span>
                 Services
               </Nav.Link>
               <Nav.Link className="nav-links" href="#deets">
+                <span>03. </span>
                 Portfolio
               </Nav.Link>
               <Nav.Link className="nav-links" href="#deets">
+                <span>04. </span>
                 Contacts
               </Nav.Link>
               <Nav.Link>

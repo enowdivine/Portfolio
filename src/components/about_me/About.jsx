@@ -4,7 +4,7 @@ import { BiRightArrow } from "react-icons/bi";
 
 const About = () => {
   return (
-    <div className="about-me-wrapper p-5">
+    <div className="about-me-wrapper container">
       <div className="about-me">
         <div className="heading">
           <span>01. </span>

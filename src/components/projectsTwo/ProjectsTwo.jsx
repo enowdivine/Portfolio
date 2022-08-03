@@ -1,27 +1,22 @@
 import React from "react";
-import "./Projects.css";
+import "./ProjectsTwo.css";
 import { FiGithub } from "react-icons/fi";
 import { FiExternalLink } from "react-icons/fi";
 
-const Projects = () => {
+const ProjectsTwo = () => {
   return (
     <div className="projects">
       <div className="project">
-        <div className="project-preview">
-          <a href="#">
-            <img src="/projects-images/projects.jpg" alt="" />
-          </a>
-        </div>
-        <div className="project-details">
-          <span className="featured-project">Featured Project</span>
+        <div className="project-details2">
+          <span className="featured-project2">Featured Project</span>
           <h5 className="mt-2">Project Name</h5>
-          <p className="more-details">
+          <p className="more-details2">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
             blanditiis voluptas error porro sequi, officiis delectus earum
             praesentium placeat a sed eveniet beatae velit magnam quia nostrum
             provident eaque aspernatur.
           </p>
-          <div className="tools">
+          <div className="projectTwo-tools">
             <span>VS Code</span>
             <span>VS Code</span>
             <span>VS Code</span>
@@ -30,7 +25,7 @@ const Projects = () => {
             <span>VS Code</span>
             <span>VS Code</span>
           </div>
-          <div className="links mt-2">
+          <div className="projectTwo-links mt-2">
             <a href="#">
               {" "}
               <FiGithub />
@@ -40,9 +35,14 @@ const Projects = () => {
             </a>
           </div>
         </div>
+        <div className="project-preview">
+          <a href="#">
+            <img src="/projects-images/projects.jpg" alt="" />
+          </a>
+        </div>
       </div>
     </div>
   );
 };
 
-export default Projects;
+export default ProjectsTwo;

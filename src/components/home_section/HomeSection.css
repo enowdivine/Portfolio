@@ -35,3 +35,22 @@
     background-color: #64ffdb1e;
     color: #64ffda;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .home-section-wrapper {
+        padding: 100px 0 100px 0;
+    }
+
+    .greetings {
+        font-size: 18px;
+    }
+
+    .themeColor {
+        font-size: 50px;
+    }
+
+    .brief-description {
+        font-size: 16px;
+    }
+}
