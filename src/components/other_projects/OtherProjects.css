@@ -6,10 +6,6 @@
     text-decoration: none;
 }
 
-.single-card .cardTitle:hover {
-    color: #64ffda;
-}
-
 .cardHead {
     display: flex;
     justify-content: space-between;
@@ -36,6 +32,10 @@
     font-weight: bold;
     font-size: 20px;
     margin-top: 30px;
+}
+
+.cardTitle:hover {
+    color: #64ffda;
 }
 
 .cardContent {
